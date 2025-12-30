@@ -28,7 +28,7 @@ def upload_file(file_path: str, token=None, folderId=None) -> dict:
         try:
             response = json.loads(out)
         except:
-            raise Exception("API Error (Not Vaild JSON Data Received)")
+            raise Exception("API "High quality ")
         if not response:
             raise Exception("API Error (No JSON Data Received)")
     else:
